@@ -51,7 +51,18 @@ module.exports = {
           7: '#D1D5DB',
           8: '#E5E7EB'
         },
-        primary: '#3758F9',
+        primary: {
+          50: '#f2f0ff',
+          100: '#e0dbff',
+          200: '#c2baff',
+          300: '#a399ff',
+          400: '#8578ff',
+          500: '#674dff', // 主色
+          600: '#5a44e6',
+          700: '#4c3bcc',
+          800: '#3e32b3',
+          900: '#302999'
+        },
         'blue-dark': '#1B44C8',
         secondary: '#13C296',
         'body-color': '#637381',

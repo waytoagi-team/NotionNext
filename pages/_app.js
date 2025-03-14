@@ -16,6 +16,7 @@ import { getQueryParam } from '../lib/utils'
 // 各种扩展插件 这个要阻塞引入
 import BLOG from '@/blog.config'
 import ExternalPlugins from '@/components/ExternalPlugins'
+import Header from '@/components/Header'
 import SEO from '@/components/SEO'
 import { zhCN } from '@clerk/localizations'
 import dynamic from 'next/dynamic'
@@ -54,6 +55,7 @@ const MyApp = ({ Component, pageProps }) => {
   const enableClerk = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
   const content = (
     <GlobalContextProvider {...pageProps}>
+        <Header currentNav="https://blog.waytoagi.com/" />
       <GLayout {...pageProps}>
         <SEO {...pageProps} />
         <Component {...pageProps} />

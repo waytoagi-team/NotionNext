@@ -7,7 +7,7 @@ const CONFIG = {
   FUKASAWA_POST_LIST_ANIMATION: false, // 博客列表淡入动画
 
   // 菜单
-  FUKASAWA_MENU_CATEGORY: true, // 显示分类
+  FUKASAWA_MENU_CATEGORY: false, // 显示分类
   FUKASAWA_MENU_TAG: true, // 显示标签
   FUKASAWA_MENU_ARCHIVE: true, // 显示归档
 
